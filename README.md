@@ -10,3 +10,6 @@ Methods:
   - go version go1.19.3 
   - fmt 
   - golang-lru 
+
+Usage:
+ - in dbCache folder: `go run .`
