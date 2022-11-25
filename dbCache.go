@@ -24,6 +24,7 @@ var (
 func postgresql(id int) (int, string) {
 	//Lets pretend that entire human population is named Adam :)
 	sqlRequestCount += 1
+	cache.Add(id, "Adam")
 	return id, "Adam"
 }
 
